@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TrustScore</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+
+  <h2>🔐 TrustScore AI</h2>
+
+  <p id="url">Detecting URL...</p>
+
+  <button id="analyzeBtn">Analyze</button>
+
+  <div id="result" class="hidden">
+    <div id="scoreCircle">0</div>
+
+    <p>Security: <span id="security"></span></p>
+    <p>Privacy: <span id="privacy"></span></p>
+    <p>Reviews: <span id="reviews"></span></p>
+
+    <div id="tips"></div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

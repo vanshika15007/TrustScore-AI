@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "TrustScore AI",
+  "version": "1.0",
+  "description": "Check website trust score instantly",
+  "permissions": ["tabs", "activeTab"],
+  "host_permissions": ["http://127.0.0.1:8000/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "TrustScore AI"
+  }
+}
