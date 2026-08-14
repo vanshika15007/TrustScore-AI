@@ -11,7 +11,7 @@ import Explanation from "./components/Explanation";
 import ErrorCard from "./components/ErrorCard";
 import "./App.css";
 
-const API_BASE = import.meta.env.VITE_API_BASE_URL ?? "http://127.0.0.1:8000";
+const API_BASE = import.meta.env.VITE_API_BASE_URL ?? "https://trustscore-ai-fv8a.onrender.com";
 const REQUEST_TIMEOUT_MS = 15000;
 const LOADING_STEPS = [
   { label: "Scraping website", status: "Render and extract visible content" },
