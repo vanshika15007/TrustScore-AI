@@ -3,10 +3,8 @@ services:
     name: trustscore-api
     env: python
     plan: free
-    buildCommand: "pip install --upgrade pip && pip install -r backend/requirements.txt"
+    buildCommand: "pip install -r backend/requirements.txt"
     startCommand: "cd backend && uvicorn app:app --host 0.0.0.0 --port $PORT"
     envVars:
-      - key: PYTHON_VERSION
-        value: "3.11.10"
       - key: CORS_ALLOW_ORIGINS
         value: "https://trustscore-ai.netlify.app"
