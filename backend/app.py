@@ -23,7 +23,7 @@ logger = logging.getLogger("trustscore.api")
 app = FastAPI(title="AI Trust Score Analyzer", version="3.0.0")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=os.getenv("CORS_ALLOW_ORIGINS", "*").split(","),
+    allow_origins=["https://trustscore-ai.netlify.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
