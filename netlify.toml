@@ -5,6 +5,7 @@
 
 [build.environment]
   NODE_VERSION = "20"
+  VITE_API_BASE_URL = "https://trustscore-ai-fv8a.onrender.com"
 
 [[redirects]]
   from = "/*"
