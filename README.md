@@ -76,22 +76,6 @@ Full API documentation available at `/docs` when running locally.
 
 ---
 
-## Environment Configuration
-
-**Frontend (.env):**
-```
-VITE_API_BASE_URL=https://trustscore-ai-fv8a.onrender.com
-```
-
-**Backend (.env):**
-```
-CORS_ALLOW_ORIGINS=https://trustscore-ai.netlify.app
-API_KEY=your-api-key
-REDIS_URL=redis://localhost:6379
-```
-
----
-
 ## Project Structure
 
 ```
